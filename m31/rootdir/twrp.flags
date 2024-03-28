@@ -50,7 +50,7 @@
 /usb-otg        vfat    /dev/block/sdf1 /dev/block/sdf          flags=display="USB OTG";storage;wipeingui;removable;
 
 # Symlinked partitions
-/system_image	  emmc		/dev/block/bootdevice/by-name/system			flags=backup=0;flashimg;display="System Image";wipepingui;
+/system_image	  emmc		/dev/block/bootdevice/by-name/system			flags=backup=0;flashimg;display="System Image";wipeingui;
 /vendor_image	  emmc		/dev/block/bootdevice/by-name/vendor			flags=backup=0;flashimg;display="Vendor Image";wipeingui;
 /product_image	emmc		/dev/block/bootdevice/by-name/product			flags=backup=0;flashimg;display="Product Image";wipeingui;
 /odm_image	    emmc		/dev/block/bootdevice/by-name/odm			    flags=backup=0;flashimg;display="Odm Image";wipeingui;
